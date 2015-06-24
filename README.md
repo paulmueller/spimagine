@@ -50,12 +50,19 @@ or the developmental branch
 
 2. Checkout this repository
    > git clone https://github.com/maweigert/spimagine
+   > cd spimagine
 
 3. Install required packages
-   > pip install requirements.txt
+   > pip install -r requirements.txt
 
 4. Install spimagine
    > python setup.py install
+
+#### Known Issues
+- segmentation fault:
+  Uninstall libtiff (pylibtiff) package. See also https://code.google.com/p/pylibtiff/issues/detail?id=11
+
+- Intel GPU and OpenCL: use [Beignet](http://www.freedesktop.org/wiki/Software/Beignet/).  See also https://github.com/maweigert/spimagine/issues/2
 
 
 ## Usage
