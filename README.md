@@ -49,7 +49,7 @@ or the developmental branch
 1. Make sure you have a working OpenCL configuration.
 
 2. Checkout this repository
-   > git clone https://github.com/maweigert/spimagine
+   > git clone https://github.com/maweigert/spimagine  
    > cd spimagine
 
 3. Install required packages
