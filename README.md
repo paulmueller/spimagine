@@ -48,6 +48,9 @@ or the developmental branch
 ### Ubuntu/Linux
 1. Make sure you have a working OpenCL configuration.
 
+2. Install dependencies:  
+   `sudo apt-get install python-pyopencl python-opengl python-qt4-gl`
+
 2. Checkout this repository
    > git clone https://github.com/maweigert/spimagine  
    > cd spimagine
