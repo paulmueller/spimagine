@@ -19,7 +19,7 @@ you wanna install libtiff to speed up opening of tiff files
 The app essentially bundles all dependencies and extracts them on the fly  so startup might be slow
 
 #### as python package
-  
+
 On Mac, clang might complain about non supported compiler flags, a quick fix to which is
 
 > export CFLAGS=-Qunused-arguments
@@ -43,6 +43,19 @@ then with pip
 or the developmental branch
 
 > pip install --user git+http://mweigert@bitbucket.org/mweigert/spimagine@develop
+
+
+### Ubuntu/Linux
+1. Make sure you have a working OpenCL configuration.
+
+2. Checkout this repository
+   > git clone https://github.com/maweigert/spimagine
+
+3. Install required packages
+   > pip install requirements.txt
+
+4. Install spimagine
+   > python setup.py install
 
 
 ## Usage
