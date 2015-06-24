@@ -75,8 +75,9 @@ or the developmental branch
 - `_cl.so: symbol clRetainDevice, version OPENCL_1.2 not defined in file libOpenCL.so.1 with link time reference`
   Make sure you have the dependencies of `python-pyopencl` installed.
 
-- 
-
+- pytools-related `ImportError: cannot import name intern`
+  `pytools` and `six` versions are not compatible. Try uninstalling
+  pytools via pip und use the system pytools (apt-get install python-pytools)
 
 ## Usage
 
