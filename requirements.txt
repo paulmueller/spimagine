@@ -1,0 +1,15 @@
+# spimagine required packages
+# pip install -r requirements.txt
+# pip install git+git://github.com/maweigert/spimagine.git@0d9b2d32f79197ecc71a9072a16ff1af869ee949
+#
+# This list might be incomplete 
+
+numpy
+pyopencl
+scikit-tensor
+
+# Pyopencl wrapper
+git+http://mweigert@bitbucket.org/mweigert/pyocl
+# Optional
+git+http://mweigert@bitbucket.org/mweigert/imgtools
+
