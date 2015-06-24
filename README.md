@@ -64,6 +64,19 @@ or the developmental branch
 
 - Intel GPU and OpenCL: use [Beignet](http://www.freedesktop.org/wiki/Software/Beignet/).  See also https://github.com/maweigert/spimagine/issues/2
 
+- `pyopencl.RuntimeError: clBuildProgram failed: invalid binary -`
+  Might occur after kernel updates, when nvidia modules are not updated. This should help:  
+  `sudo apt-get install nvidia-331 nvidia-331-uvm nvidia-opencl-dev nvidia-modprobe`  
+  See also http://askubuntu.com/questions/541114/how-to-make-opencl-work-on-14-10-nvidia-331-89-drivers  
+  Also try to reconfigure the modules manually `sudo dpkg-reconfigure nvidia-331-uvm` and `sudo dpkg-reconfigure nvidia-331` and reboot
+  You might have installed a new version (331.113) of the nvidia drivers. Try installing an older version (331.38), runing dpkg-reconfigure, and rebooting again.
+
+
+- `_cl.so: symbol clRetainDevice, version OPENCL_1.2 not defined in file libOpenCL.so.1 with link time reference`
+  Make sure you have the dependencies of `python-pyopencl` installed.
+
+- 
+
 
 ## Usage
 
