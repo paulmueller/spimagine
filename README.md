@@ -76,7 +76,7 @@ or the developmental branch
 
 - pytools-related `ImportError: cannot import name intern`  
   `pytools` and `six` versions are not compatible. Try uninstalling
-  pytools via pip und use the system pytools (`apt-get install python-pytools`)
+  pytools via pip and use the system pytools (`apt-get install python-pytools`)
 
 ## Usage
 
